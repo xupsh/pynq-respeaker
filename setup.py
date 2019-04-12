@@ -15,7 +15,7 @@ if os.environ['BOARD'] != 'Pynq-Z2':
 setup(
 	name = "respeaker",
 	version = 1.0,
-	url = 'https://github.com/sumilao/pynq-respeaker',
+	url = 'https://github.com/xupsh/pynq-respeaker',
 	license = 'BSD 3-Clause License',
 	author = "Jin Yongwei",
 	author_email = "yongweij@xilinx.com",

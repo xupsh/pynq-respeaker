@@ -9,7 +9,7 @@ In order to install it on your PYNQ board, connect to the board, open a terminal
 ### Online Install
 ```shell
 # (on PYNQ v2.3 only)
-sudo pip3 install git+https://github.com/sumilao/pynq-respeaker.git
+sudo pip3 install git+https://github.com/xupsh/pynq-respeaker.git
 ```
 ### Standalone Install
 ```shell
