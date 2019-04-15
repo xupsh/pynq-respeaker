@@ -32,7 +32,7 @@ setup(
 )
 
 if 'install' in sys.argv:
-	subprocess.check_output(["echo","y","|","apt-get", "install", "libsndfile1"])
+	os.system("echo y | apt-get install libsndfile1")
 	if os.path.isdir(os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/pynq-respeaker/"):
 		shutil.rmtree(os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/pynq-respeaker/")
 	shutil.copytree("boards/Pynq-Z2/notebooks/",os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/pynq-respeaker/")
