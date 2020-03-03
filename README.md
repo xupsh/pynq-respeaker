@@ -21,7 +21,7 @@ sudo python setup.py install
 NOTE: This command must be run as root.  
 ### Run the examples
 
-After the installation, a folder pynq-sense-hat shuold be seen in `/home/xilinx/jupyter_notebooks`.There are 2 notebooks in it and you can run them.
+After the installation, a folder pynq-respeaker shuold be seen in `/home/xilinx/jupyter_notebooks`.There are 2 notebooks in it and you can run them.
 
 ## About the ReSpeaker and the project overlay
 ReSpeaker is a 4-mic array with an AC108 4-channel ADC as a converter. ReSpeaker is designed as a Raspberry device. AC108 support I2S interface, so we need to build our own overlay.  
