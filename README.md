@@ -19,6 +19,10 @@ sudo python setup.py install
 ```
 
 NOTE: This command must be run as root.  
+
+### Connect ReSpeaker to PYNQ-Z2
+
+![](./boards/Pynq-Z2/notebooks/data/respeaker_pynq.jpg)
 ### Run the examples
 
 After the installation, a folder pynq-respeaker shuold be seen in `/home/xilinx/jupyter_notebooks`.There are 2 notebooks in it and you can run them.
