@@ -27,10 +27,10 @@ After the installation, a folder pynq-respeaker shuold be seen in `/home/xilinx/
 
 ## About the ReSpeaker and the project overlay  
 ### ReSpeaker
-ReSpeaker is a 4-mic array with an AC108 4-channel ADC as a converter. ReSpeaker is designed as a Raspberry device.   
-More information about ReSpeaker, please click [here](http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/).  
+ReSpeaker is a 4-mic array with an AC108 4-channel ADC as a converter. More information about ReSpeaker, please click [here](http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/).         
 
-### Cunstomed overlay  
-AC108 support I2S interface, so we need to build our own overlay.  
+### Customized overlay  
+AC108 support I2S interface, here is the Vivado Block Design diagram.  
 ![](./overlay.png)  
-The customed respeaker IP converts I2S signal and stored results in it. PS accesses those data via AXI_lite bus (MMIO in PYNQ ).
+The customized respeaker IP converts I2S signal and stored results in it. PS accesses those data via AXI_lite bus (MMIO in PYNQ ).
+
