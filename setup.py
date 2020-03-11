@@ -18,7 +18,7 @@ setup(
 	url = 'https://github.com/xupsh/pynq-respeaker',
 	license = 'BSD 3-Clause License',
 	author = "Jin Yongwei",
-	author_email = "yongweij@xilinx.com",
+	author_email = "xup_china@xilinx.com",
 
 	include_package_data = True,
 	packages = ['respeaker'],
