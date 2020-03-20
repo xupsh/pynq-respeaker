@@ -121,6 +121,10 @@ set_property  ip_repo_paths  [pwd]/../../../ip [current_project]
 
 update_ip_catalog
 
+add_files -fileset constrs_1 -norecurse [pwd]ps_respeaker.xdc
+
+import_files -fileset constrs_1 [pwd]ps_respeaker.xdc
+
 set bCheckIPsPassed 1
 ##################################################################
 # CHECK IPs
