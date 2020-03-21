@@ -29,6 +29,18 @@ After the installation, a folder pynq-respeaker shuold be seen in `/home/xilinx/
 ### ReSpeaker
 ReSpeaker is a 4-mic array with an AC108 4-channel ADC as a converter. More information about ReSpeaker, please click [here](http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/).         
 
+### Rebuild the overlay  
+windows: Open vivado 2018.3 and type these command lines in the tcl console:  
+```
+cd <PATH_TO_PROJECT>/boards/Pynq-Z2/notebooks/bitstream  
+source respeaker_wifi.tcl
+```
+linux: Use these command lines:  
+```
+source <PATH_TO_VIVADO>/2018.3/settings64.sh  
+cd <PATH_TO_PROJECT>/boards/Pynq-Z2/notebooks/bitstream  
+make
+```
 ### Customized overlay  
 AC108 support I2S interface, here is the Vivado Block Design diagram.  
 ![](./overlay.png)  
