@@ -46,3 +46,6 @@ AC108 support I2S interface, here is the Vivado Block Design diagram.
 ![](./overlay.png)  
 The customized respeaker IP converts I2S signal and stored results in it. PS accesses those data via AXI_lite bus (MMIO in PYNQ ).
 
+## License
+
+**PYNQ** License : [BSD 3-Clause License](https://github.com/Xilinx/PYNQ/blob/master/LICENSE)
