@@ -15,7 +15,6 @@ sudo pip3 install git+https://github.com/xupsh/pynq-respeaker.git
 ### *Standalone Install*
 ```shell
 # (on PYNQ v2.3 or v2.4 only)
-cd pynq-sense-hat
 sudo python setup.py install
 ```
 
