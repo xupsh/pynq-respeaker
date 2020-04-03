@@ -1,6 +1,6 @@
 # ReSpeaker 4-Mic Array for PYNQ
 
-This repo contains the pip install package for ReSpeaker 4-Mic Array on PYNQ. It's only support PYNQ Z2 board. There are 2 noetbooks in the design. DOA.ipynb demostrates how to calculate DOA (Direction Of Arrival) of the sound. STT.ipynb demostrates  how to do STT (Speech To Text) with APIs provided by Baidu.
+This repo contains the pip install package for ReSpeaker 4-Mic Array on PYNQ. It uses the PI interface of PYNQ Z2 board. There are 2 noetbooks in the design. DOA.ipynb demostrates how to calculate DOA (Direction Of Arrival) of the sound. STT.ipynb demostrates  how to do STT (Speech To Text) with APIs provided by Baidu (can easily switch to AWS).
 ![](./boards/Pynq-Z2/notebooks/data/respeaker_pynq.jpg)
 
 ## Quick Start
